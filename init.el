@@ -21,10 +21,11 @@
   (require 'setup-helm)
   (require 'setup-helm-gtags))
 ;; (require 'setup-ggtags)
-(require 'setup-cedet)
+;;(require 'setup-cedet)
 (require 'setup-editing)
 (require 'setup-config)
-
+(require 'function-args)
+(fa-config-default)
 
 
 ;; function-args
@@ -43,7 +44,7 @@
     ("38e64ea9b3a5e512ae9547063ee491c20bd717fe59d9c12219a0b1050b439cdd" default)))
  '(package-selected-packages
    (quote
-    (cyberpunk-theme zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu))))
+    (sr-speedbar function-args cyberpunk-theme zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

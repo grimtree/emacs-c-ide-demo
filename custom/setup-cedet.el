@@ -1,9 +1,11 @@
 (require 'cc-mode)
 (require 'semantic)
+(require 'semantic/bovine/semantic-clang)
 
 (global-semanticdb-minor-mode 1)
 (global-semantic-idle-scheduler-mode 1)
 (global-semantic-stickyfunc-mode 1)
+(semantic-clang-activate)
 
 (semantic-mode 1)
 
